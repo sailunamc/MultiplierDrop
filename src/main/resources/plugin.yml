@@ -1,0 +1,4 @@
+name: MultiplierDrop
+version: ${version}
+main: me.hqnkuh.plugins.MultiplierDrop
+api-version: 1.21
