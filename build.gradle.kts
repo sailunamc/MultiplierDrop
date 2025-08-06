@@ -32,3 +32,7 @@ tasks.processResources {
 tasks.runServer {
     minecraftVersion("1.21.8")
 }
+
+tasks.register("printVersion") {
+    doLast { println(project.version as String) }
+}
