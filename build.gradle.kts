@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "me.hqnkuh"
-version = "1.0-SNAPSHOT"
+version = providers.gradleProperty("version").get()
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
